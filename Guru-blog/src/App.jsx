@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Home from "./Home";
 import Navbar from "./Navbar";
-import Counter from "./Counter";
+
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <div className="content">
           <Home />
         </div>
-        <Counter />
+  
       </div>
     </>
   );
