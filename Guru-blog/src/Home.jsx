@@ -19,9 +19,7 @@ const handleDelete =(id)=>{
   return (
     <div className="home">
     <Bloglist headTitle = 'All blogs' blogs={blogs} handleDelete = {handleDelete}/>
-    <Bloglist headTitle = 'mario blogs' blogs={blogs.filter((blog)=> blog.author === 'mario')} />
-      <button onClick={()=> setName('luigi')}>change Name</button>
-      <h1>{name}</h1>
+   
     </div>
   );
 }
